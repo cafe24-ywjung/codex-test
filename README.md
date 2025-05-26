@@ -1,14 +1,14 @@
 # codex-test
 
-This repository contains a minimal skeleton to start a FastAPI project backed by a MySQL database.
+SQLite를 사용하는 FastAPI 예제 프로젝트입니다.
 
-## Running the application
+## 실행 방법
 
-Install dependencies and run the server with Uvicorn:
+필요한 패키지를 설치하고 Uvicorn으로 서버를 실행합니다.
 
 ```bash
 pip install -r requirements.txt
 python -m app.main
 ```
 
-Update `app/database.py` with your local MySQL credentials before starting. The application exposes a `/items` route that returns all items stored in the database.
+앱이 실행되면 `/items` 경로에서 저장된 모든 아이템을 JSON 형식으로 확인할 수 있습니다.
