@@ -3,8 +3,8 @@ from typing import List
 from fastapi import Depends, FastAPI
 from sqlalchemy.future import select
 
-from .database import get_db
-from .models import Base, Item, engine
+from .database import get_db, engine
+from .models import Base, Item
 
 app = FastAPI()
 
